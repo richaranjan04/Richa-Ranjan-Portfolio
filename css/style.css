@@ -342,8 +342,8 @@ figure {
               color : white;
               border: 0px solid white !important; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 35%; } }
+            /* #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+              width: %; } } */
 
               .mobile-view
                {
