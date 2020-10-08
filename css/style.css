@@ -289,7 +289,7 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
+            text-align: left; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
@@ -325,6 +325,7 @@ figure {
           margin-bottom: 0; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
+          text-align: left;
           text-transform: uppercase;
           letter-spacing: 2px;
           color: #000;
@@ -342,11 +343,11 @@ figure {
               border: 0px solid white !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 100%; } }
+              width: 35%; } }
 
               .mobile-view
                {
-                  position: absolute;
+                  position: relative;
                   top: 0%;
                   display: none;
               }
